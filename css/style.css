@@ -1,0 +1,227 @@
+/*Genral styles*/
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    color: cornflowerblue;
+    font-family: 'Mukta+Malar', sans-serif;
+    margin: 0px;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4 {
+    text-align: center;
+}
+
+section {
+    padding-bottom: 60px;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/*General styls stop*/
+
+/* Main menu styles start*/
+
+#menu{
+    background-color: pink;
+    text-align: right;
+    color: #C0C6CC;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    position:fixed;     
+}
+
+/*Navigation menu start*/
+
+#main-nav {
+    background-color:rgba(255,255,255, 1);
+    border: rgba(255,255,255,0);
+    margin: 0;
+    transition: all 0.3s;
+    
+}
+
+#main-nav ul li a {
+    color: cornflowerblue;
+    text-decoration: none;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+
+#main-nav ul li a:hover {
+    color: darkblue;
+}
+
+#main-nav .scroll{
+    background-color: #85919E; 
+}
+
+#main-nav .scroll ul li a{
+    color:blue;
+}
+   
+
+/*Main menu styles stop*/
+
+/*Header styles start*/
+#main-header {
+    background-image: url(../img/colorfulbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: darkblue;
+    height: 100vh;
+    position: relative;
+    max-height: 800px;
+    
+}
+
+#main-header .main-header-content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
+#main-header .main-header-content h1{
+    font-size: 4em;
+    font-family: 'Mukta+Malar', sans-serif;
+    font-weight: 200;
+}
+
+
+#main-header .main-header-content h2{
+    font-size: 2em;
+    font-weight: 200;
+}
+
+/*Header styles stop*/
+
+/*Section about me styles strat*/
+#about {
+    background-color: #f9fcfe;
+}
+
+#about figure img{
+    max-height: 350px;
+    border: 14px #fff solid;
+    border-radius: 15px;
+    max-width: 100%;
+    display: inline;
+}
+
+/*Section about me styles stop*/
+
+
+/*Section technologies start*/
+
+#technologies div#technologies-icons {
+    text-align: center;
+}
+
+#technologies #technologies-icons figure {
+    margin-bottom: 10px;
+}
+
+#technologies #technologies-icons figure img {
+    margin-bottom: 10px;
+}
+
+/*Section technologies stop*/
+
+/*Section enviroments start*/
+#enviroments {
+    background-color: #f9fcfe;
+}
+
+#enviroments div#enviroments-icons {
+    text-align: center;
+}
+
+#enviroments div#enviroments-icons figure {
+    margin-bottom: 5px;
+}
+
+#enviroments div#enviroments-icons figure img{
+    margin-bottom: 5px;
+}
+
+/*Section enviroments stop*/
+
+
+
+/*Section contact start*/
+
+#contact {
+    background-color: #74A0CC;
+    color:#fff;
+    overflow: hidden;
+    width:100%;
+    text-align: center;
+}
+
+a {
+    color:#fff;
+}
+
+a:hover{
+    color:coral;
+}
+
+/*Section contact stop*/
+
+
+/*Responsive Contact Section */
+	#contact .contact-data, #contact .contact-data h2 {
+		width: 100%;
+		text-align: center;
+	 }
+
+	 #contact .contact-form {
+		width: 100%;
+	 }
+	
+	#contact .contact-data .contact-social-icons a{
+		margin: 0;
+	}
+	
+	/*	Responsive Header */
+	#main-header .main-header-content h1 {
+		font-size: 3em;
+	}
+	
+	#main-header .main-header-content h2{
+		font-size: 1.5em;
+	}
+
+}
+
+
+/*Responsive Styles Stop */
+
